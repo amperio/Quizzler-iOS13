@@ -48,6 +48,13 @@ class ViewController: UIViewController {
         answ1.setTitle(quizBrain.getAnswers(indice: 0), for: .normal)
         answ2.setTitle(quizBrain.getAnswers(indice: 1), for: .normal)
         answ3.setTitle(quizBrain.getAnswers(indice: 2), for: .normal)
+        
+        // OPCION 2
+        /*
+        answ1.setTitle(quizzBrain.getAnswers()[0], for: .normal)
+        answ2.setTitle(quizzBrain.getAnswers()[1], for: .normal)
+        answ3.setTitle(quizzBrain.getAnswers()[2], for: .normal)
+        */
     }
     
     func delayy(boton: UIButton, colorin: UIColor) {
