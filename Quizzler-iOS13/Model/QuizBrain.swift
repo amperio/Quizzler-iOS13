@@ -56,4 +56,10 @@ struct QuizBrain {
     func getAnswers(indice: Int) -> String {
         return questions[contador].a[indice]
     }
+    
+    /*
+        func getAnswers() -> [String] {
+        return questions[contador].a
+    }
+    */
 }
